@@ -7,7 +7,7 @@
 
 <h3>API Kiosk Model Viewer</h3>
 <p>
-  Backend for managing kiosk model viewer app
+  Minimalistic Wordpress plugin for managing kiosk model viewer app powered by Advanced Custom Fields PRO & WP GraphQL.
   <br />
   <a href="https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues">Report Bug</a>
   ·
@@ -16,8 +16,7 @@
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [About API Kiosk Model Viewer](#about-API Kiosk Model Viewer)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -28,49 +27,31 @@
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## About API Kiosk Model Viewer
-
-[![API Kiosk Model Viewer Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-
-### Built With
-
+## Built With
 * PHP
-* NPM
-* Webpack
-* Modularity
+* Wordpress
+* [Advanced Custom Fields Pro](#license)
+* [WP GraphQL](#acknowledgements)
+* [WP GRaphQL Advanced Custom Fields](#acknowledgements)
 
 ## Getting Started
-
 To get a local copy up and running follow these simple steps.
-
 ### Prerequisites
+This Wordpress plugin depends on the following wordpress plugins, please download & make sure they are activated:
+- [Advanced Custom Fields Pro](#license)
+- [WP GraphQL](#acknowledgements)
+- [WP GRaphQL Advanced Custom Fields](#acknowledgements)
 
-This is an example of how to list things you need to use the software and how to install them (mac os).
-* composer
-```sh
-brew install composer
-```
-* npm
-```sh
-brew install node
-```
 ### Installation
-
-1. Clone the repo
-```sh
-git clone https://github.com/helsingborg-stad/api-kiosk-model-viewer.git
-```
-2. Install and build NPM packages
-```sh
-npm install && npm run build
-```
-3. Install composer packages
-```sh
-composer install
-```
-
+1. Download contents into your wordpress plugins folder:
+    ```
+    git clone https://github.com/helsingborg-stad/api-kiosk-model-viewer.git
+    ```
+    Download as a composer package (optional):
+    ```
+    composer require helsingborg-stad/api-kiosk-model-viewer
+    ```
+2. Activate plugin
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
