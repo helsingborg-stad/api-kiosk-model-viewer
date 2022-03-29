@@ -13,15 +13,15 @@ class App
     {
         $args = array(
             'menu_icon'          => 'dashicons-portfolio',
-            'public'             => true,
-            'publicly_queryable' => true,
+            'public'             => false,
+            'publicly_queryable' => false,
             'show_ui'            => true,
             'show_in_menu'       => true,
             'query_var'          => true,
             'capability_type'    => 'post',
-            'has_archive'        => true,
+            'has_archive'        => false,
             'hierarchical'       => false,
-            'supports'           => array('title', 'author', 'revisions', 'editor', 'thumbnail', 'themes'),
+            'supports'           => array('title', 'author', 'revisions', 'thumbnail'),
             'show_in_graphql'    => true,
             'graphql_single_name' => 'model',
             'graphql_plural_name' => 'models'
@@ -29,7 +29,7 @@ class App
         );
 
         $restArgs = array(
-            'exclude_keys' => array('author', 'acf', 'guid', 'link', 'template', 'meta', 'taxonomy', 'menu_order')
+            'exclude_keys' => array()
         );
 
         $postType = new \ApiKioskModelViewer\Helper\PostType(
@@ -46,9 +46,11 @@ class App
             __('School', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
             __('Schools', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
             array(
+                'public' => false,
+                'publicly_queryable' => false,
                 'hierarchical' => true,
                 'show_ui' => true,
-                'show_in_rest' => true,
+                'show_in_rest' => false,
                 'show_in_quick_edit' => false,
                 'meta_box_cb' => false,
                 'show_in_graphql' => true,
