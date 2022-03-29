@@ -22,8 +22,10 @@ class App
             'has_archive'        => true,
             'hierarchical'       => false,
             'supports'           => array('title', 'author', 'revisions', 'editor', 'thumbnail', 'themes'),
-            'show_in_rest'       => true,
-            'show_in_graphql'    => true
+            'show_in_graphql'    => true,
+            'graphql_single_name' => 'model',
+            'graphql_plural_name' => 'models'
+
         );
 
         $restArgs = array(
@@ -49,7 +51,9 @@ class App
                 'show_in_rest' => true,
                 'show_in_quick_edit' => false,
                 'meta_box_cb' => false,
-                'show_in_graphql' => true
+                'show_in_graphql' => true,
+                'graphql_single_name' => 'school',
+                'graphql_plural_name' => 'schools'
             )
         );
     }
