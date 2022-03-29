@@ -13,7 +13,7 @@ class App
     {
         $args = array(
             'menu_icon'          => 'dashicons-portfolio',
-            'public'             => false,
+            'public'             => true,
             'publicly_queryable' => false,
             'show_ui'            => true,
             'show_in_menu'       => true,
@@ -46,7 +46,7 @@ class App
             __('School', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
             __('Schools', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
             array(
-                'public' => false,
+                'public' => true,
                 'publicly_queryable' => false,
                 'hierarchical' => true,
                 'show_ui' => true,
