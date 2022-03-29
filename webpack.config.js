@@ -16,8 +16,8 @@ module.exports = {
      * Entry files - Add more entries if needed.
      */
     entry: {
-        'js/{{BPREPLACESLUG}}': './source/js/{{BPREPLACESLUG}}.js',
-        'css/{{BPREPLACESLUG}}': './source/sass/{{BPREPLACESLUG}}.scss',
+        'js/api-kiosk-model-viewer': './source/js/api-kiosk-model-viewer.js',
+        'css/api-kiosk-model-viewer': './source/sass/api-kiosk-model-viewer.scss',
     },
     
     /**

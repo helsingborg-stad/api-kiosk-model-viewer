@@ -1,18 +1,18 @@
 {
-  "name": "{{BPREPLACESLUG}}",
+  "name": "api-kiosk-model-viewer",
   "version": "1.0.0",
-  "description": "{{BPREPLACEDESCRIPTION}}",
+  "description": "Backend for managing kiosk model viewer app",
   "main": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/{{BPREPLACEGITHUB}}/{{BPREPLACESLUG}}"
+    "url": "https://github.com/nramstedt/api-kiosk-model-viewer"
   },
-  "author": "{{BPREPLACEAUTHOR}}",
+  "author": "Nikolas Ramstedt @ Helsingborg Stad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/{{BPREPLACEGITHUB}}/{{BPREPLACESLUG}}/issues"
+    "url": "https://github.com/nramstedt/api-kiosk-model-viewer/issues"
   },
-  "homepage": "https://github.com/{{BPREPLACEGITHUB}}/{{BPREPLACESLUG}}",
+  "homepage": "https://github.com/nramstedt/api-kiosk-model-viewer",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "cross-env NODE_ENV=development webpack --watch",

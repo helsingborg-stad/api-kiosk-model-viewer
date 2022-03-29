@@ -1,6 +1,6 @@
 <?php
 
-namespace {{BPREPLACENAMESPACE}};
+namespace ApiKioskModelViewer;
 
 class App
 {
@@ -17,9 +17,9 @@ class App
     public function enqueueStyles()
     {
         wp_register_style(
-            '{{BPREPLACESLUG}}-css',
-            {{BPREPLACECAPSCONSTANT}}_URL . '/dist/' .
-            \{{BPREPLACENAMESPACE}}\Helper\CacheBust::name('css/{{BPREPLACESLUG}}.css')
+            'api-kiosk-model-viewer-css',
+            API_KIOSK_MODEL_VIEWER_URL . '/dist/' .
+            \ApiKioskModelViewer\Helper\CacheBust::name('css/api-kiosk-model-viewer.css')
         );
     }
 
@@ -30,9 +30,9 @@ class App
     public function enqueueScripts()
     {
         wp_register_script(
-            '{{BPREPLACESLUG}}-js',
-            {{BPREPLACECAPSCONSTANT}}_URL . '/dist/' .
-            \{{BPREPLACENAMESPACE}}\Helper\CacheBust::name('js/{{BPREPLACESLUG}}.js')
+            'api-kiosk-model-viewer-js',
+            API_KIOSK_MODEL_VIEWER_URL . '/dist/' .
+            \ApiKioskModelViewer\Helper\CacheBust::name('js/api-kiosk-model-viewer.js')
         );
     }
 }
