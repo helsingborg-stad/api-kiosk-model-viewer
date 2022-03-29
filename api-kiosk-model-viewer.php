@@ -21,7 +21,7 @@ if (! defined('WPINC')) {
 define('API_KIOSK_MODEL_VIEWER_PATH', plugin_dir_path(__FILE__));
 define('API_KIOSK_MODEL_VIEWER_URL', plugins_url('', __FILE__));
 define('API_KIOSK_MODEL_VIEWER_TEMPLATE_PATH', API_KIOSK_MODEL_VIEWER_PATH . 'templates/');
-define('API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN', api-kiosk-model-viewer);
+define('API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN', 'api-kiosk-model-viewer');
 
 load_plugin_textdomain(API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN, false, API_KIOSK_MODEL_VIEWER_PATH . '/languages');
 
@@ -43,7 +43,7 @@ add_action('acf/init', function () {
         'api-kiosk-model-viewer-settings' => 'group_61ea7a87e8aaa' //Update with acf id here, settings view
     ));
     $acfExportManager->import();
-}
+});
 
 // Start application
 new ApiKioskModelViewer\App();
