@@ -37,5 +37,18 @@ class App
             array(),
             $restArgs
         );
+
+        $postType->addTaxonomy(
+            'school',
+            __('School', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
+            __('Schools', API_KIOSK_MODEL_VIEWER_TEXT_DOMAIN),
+            array(
+                'hierarchical' => true,
+                'show_ui' => true,
+                'show_in_rest' => true,
+                'show_in_quick_edit' => false,
+                'meta_box_cb' => false,
+            )
+        );
     }
 }
