@@ -9,9 +9,9 @@
 <p>
   Backend for managing kiosk model viewer app
   <br />
-  <a href="https://github.com/nramstedt/api-kiosk-model-viewer/issues">Report Bug</a>
+  <a href="https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues">Report Bug</a>
   ·
-  <a href="https://github.com/nramstedt/api-kiosk-model-viewer/issues">Request Feature</a>
+  <a href="https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues">Request Feature</a>
 </p>
 
 ## Table of Contents
@@ -60,7 +60,7 @@ brew install node
 
 1. Clone the repo
 ```sh
-git clone https://github.com/nramstedt/api-kiosk-model-viewer.git
+git clone https://github.com/helsingborg-stad/api-kiosk-model-viewer.git
 ```
 2. Install and build NPM packages
 ```sh
@@ -106,14 +106,14 @@ Distributed under the [MIT License][license-url].
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/nramstedt/api-kiosk-model-viewer.svg?style=flat-square
-[contributors-url]: https://github.com/nramstedt/api-kiosk-model-viewer/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nramstedt/api-kiosk-model-viewer.svg?style=flat-square
-[forks-url]: https://github.com/nramstedt/api-kiosk-model-viewer/network/members
-[stars-shield]: https://img.shields.io/github/stars/nramstedt/api-kiosk-model-viewer.svg?style=flat-square
-[stars-url]: https://github.com/nramstedt/api-kiosk-model-viewer/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nramstedt/api-kiosk-model-viewer.svg?style=flat-square
-[issues-url]: https://github.com/nramstedt/api-kiosk-model-viewer/issues
-[license-shield]: https://img.shields.io/github/license/nramstedt/api-kiosk-model-viewer.svg?style=flat-square
-[license-url]: https://raw.githubusercontent.com/nramstedt/api-kiosk-model-viewer/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/helsingborg-stad/api-kiosk-model-viewer.svg?style=flat-square
+[contributors-url]: https://github.com/helsingborg-stad/api-kiosk-model-viewer/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/helsingborg-stad/api-kiosk-model-viewer.svg?style=flat-square
+[forks-url]: https://github.com/helsingborg-stad/api-kiosk-model-viewer/network/members
+[stars-shield]: https://img.shields.io/github/stars/helsingborg-stad/api-kiosk-model-viewer.svg?style=flat-square
+[stars-url]: https://github.com/helsingborg-stad/api-kiosk-model-viewer/stargazers
+[issues-shield]: https://img.shields.io/github/issues/helsingborg-stad/api-kiosk-model-viewer.svg?style=flat-square
+[issues-url]: https://github.com/helsingborg-stad/api-kiosk-model-viewer/issues
+[license-shield]: https://img.shields.io/github/license/helsingborg-stad/api-kiosk-model-viewer.svg?style=flat-square
+[license-url]: https://raw.githubusercontent.com/helsingborg-stad/api-kiosk-model-viewer/master/LICENSE
 [product-screenshot]: images/screenshot.png

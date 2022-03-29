@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name:       API Kiosk Model Viewer
- * Plugin URI:        https://github.com/nramstedt/api-kiosk-model-viewer
+ * Plugin URI:        https://github.com/helsingborg-stad/api-kiosk-model-viewer
  * Description:       Backend for managing kiosk model viewer app
  * Version:           1.0.0
  * Author:            Nikolas Ramstedt @ Helsingborg Stad
- * Author URI:        https://github.com/nramstedt
+ * Author URI:        https://github.com/helsingborg-stad
  * License:           MIT
  * License URI:       https://opensource.org/licenses/MIT
  * Text Domain:       api-kiosk-model-viewer

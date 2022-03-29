@@ -1,0 +1,11 @@
+{
+  "name": "API Kiosk Model Viewer",
+  "description": "Backend for managing kiosk model viewer app",
+  "slug": "api-kiosk-model-viewer",
+  "slugcamelcase": "apiKioskModelViewer",
+  "namespace": "ApiKioskModelViewer",
+  "capsConstant": "API_KIOSK_MODEL_VIEWER",
+  "author": "Nikolas Ramstedt @ Helsingborg Stad",
+  "authoremail": "nikolas.ramstedt@helsingborg.se",
+  "github": "helsingborg-stad"
+}
