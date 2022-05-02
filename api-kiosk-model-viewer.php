@@ -40,7 +40,8 @@ add_action('acf/init', function () {
     $acfExportManager->setTextdomain('api-kiosk-model-viewer');
     $acfExportManager->setExportFolder(API_KIOSK_MODEL_VIEWER_PATH . 'source/php/AcfFields/');
     $acfExportManager->autoExport(array(
-        'model-file-formats' => 'group_620b028642eca' //Update with acf id here, settings view
+        'model-file-formats'    => 'group_620b028642eca', //Update with acf id here, settings view
+        'model-taxonomies'      => 'group_626fd05403c57',
     ));
     $acfExportManager->import();
 });

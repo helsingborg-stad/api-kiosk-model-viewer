@@ -51,7 +51,7 @@ class App
                 'hierarchical' => true,
                 'show_ui' => true,
                 'show_in_rest' => false,
-                'show_in_quick_edit' => false,
+                'show_in_quick_edit' => true,
                 'meta_box_cb' => false,
                 'show_in_graphql' => true,
                 'graphql_single_name' => 'school',
